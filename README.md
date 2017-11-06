@@ -146,7 +146,6 @@ configurations. Here’s an example of details tab with one property **comments:
                 "shouldValidate": false,
                 "propertyTooltip": "comments",
                 "propertyType": "details",
-                "propertyDefault": "Some comment",
                 "template": "textarea",
                 "valueType": "string"
             }
@@ -377,7 +376,6 @@ type and behaviour.
                 "shouldValidate": false,
                 "propertyTooltip": "comments",
                 "propertyType": "details",
-                "propertyDefault": "Some comment",
                 "template": "textarea",
                 "valueType": "string"
             }
@@ -462,13 +460,6 @@ validation rules
 
 **options** *(array)* - optional; used to define options in the select input if
 fieldType is selected
-
-**propertyDefault** *(string|number|boolean)* - optional; contains default value of property. Type of value dependent on *propertyType*.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    "propertyType": "checkbox"
-    "propertyDefault": true
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Field types
 -----------
